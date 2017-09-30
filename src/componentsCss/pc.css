@@ -1,0 +1,111 @@
+/* New_header 组件 */
+/* logo */
+.login{
+  display: flex;
+  align-items: center;
+}
+.login img{
+  width: 48px;
+  height: 48px;
+}
+.login span{
+  font-size: 24px;
+  padding-left: 5px;
+}
+/* 登陆注册 */
+.register{
+  float: right !important;
+}
+/*解决链接block的问题*/
+.ant-menu-horizontal>.ant-menu-item>a, .ant-menu-horizontal>.ant-menu-submenu>a{
+  display: inline-block !important;
+}
+
+/* container 组件 */
+.container{
+  padding-top: 10px;
+  margin-top: 5px;
+}
+.leftContainer{
+  width: 400px;
+  float: left;
+}
+
+/*轮播图*/
+.leftContainer>.ant-carousel {
+  width: 400px;
+  float: left;
+}
+.leftContainer>.ant-carousel img {
+  width: 400px;
+  height: 260px;
+}
+/* 新闻列表 */
+.tabs_news {
+  padding-left: 10px;
+  width: 400px;
+  float: left;
+}
+.tabs_news li{
+  height: 27px;
+  line-height: 27px;
+  font-size: 14px;
+  white-space: nowrap;
+  width: 417px;
+  float: left;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+/*news_block*/
+.topNewsList {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.topNewsList a {
+  line-height: 22px !important;
+  color: #666 !important;
+}
+
+.ant-card{
+  margin-top: 5px !important;
+}
+.ant-card-head-title{
+  text-align: left !important;
+}
+.ant-card-body{
+  text-align: left !important;
+  padding: 15px !important;
+}
+.ant-tabs-bar {
+  margin-bottom: 0 !important;
+}
+
+/*news_image_block*/
+.imageblock {
+  float: left;
+}
+.custom-card {
+  padding: 5px;
+}
+.custom-card p {
+  color: #999;
+}
+
+/*news_products*/
+.pro_bg {
+  background: #eeeeee;
+  margin-top: 10px;
+}
+
+.pro {
+  padding: 5px;
+  overflow: hidden;
+}
+
+.pro a {
+  float: left;
+  line-height: 30px;
+  margin-right: 5px;
+}
